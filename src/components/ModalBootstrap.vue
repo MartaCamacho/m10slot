@@ -20,5 +20,5 @@
       </div>
     </div>
 </template>
-<script src="./ModalBootstrap.js"></script>
+<script src="../scripts/ModalBootstrap.js"></script>
 

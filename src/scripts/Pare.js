@@ -1,4 +1,4 @@
-import ModalBootstrap from '../ModalBootstrap/ModalBootstrap.vue';
+import ModalBootstrap from '../components/ModalBootstrap.vue';
 
 export default {
     name: 'Pare',

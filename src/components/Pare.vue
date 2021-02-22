@@ -18,5 +18,5 @@
   </div>
 </template>
 
-<script src="./Pare.js"></script>
+<script src="../scripts/Pare.js"></script>
 
