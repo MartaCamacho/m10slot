@@ -1,15 +1,15 @@
 <template>
   <img alt="Vue logo" src="./assets/logo.png">
-  <ModalBootstrap />
+  <Pare />
 </template>
 
 <script>
-import ModalBootstrap from './components/ModalBootstrap/ModalBootstrap.vue';
+import Pare from './components/Pare/Pare.vue'
 
 export default {
   name: 'App',
   components: {
-    ModalBootstrap
+    Pare
   }
 }
 </script>
