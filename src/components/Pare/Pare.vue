@@ -3,7 +3,7 @@
     <ModalBootstrap  @msg="msgPadre = $event">
       <template v-slot:header>
         <h5 class="modal-title" id="exampleModalLabel">Hola mundo</h5>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        <button type="button" @click="theAlert()" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </template>
       <template v-slot:body>
         <label for="cambio">Cambio de moneda</label>
