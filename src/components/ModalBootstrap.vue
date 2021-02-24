@@ -10,7 +10,13 @@
               <slot name="header"></slot>
             </div>
             <div class="modal-body">
-              <slot name="body"></slot>
+              <slot name="body" v-bind="changeInput(number)"></slot>
+              <p v-if="number !== ''" >
+                El cambio de {{number}}€ es de <span> {{dollar}}$ </span>
+              </p>
+              <p v-if="number === ''" >
+                El campo no puede estar vacío
+              </p>
             </div>
             <div class="modal-footer">
               <slot name="footer"></slot>
