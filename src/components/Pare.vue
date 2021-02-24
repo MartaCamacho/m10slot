@@ -11,12 +11,10 @@
         <p>{{ msg }}</p>
       </template>
       <template v-slot:footer>
-        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+        <button @click="theAlert()" type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
         <button class="btn btn-primary">Enviar</button>
       </template>
     </ModalBootstrap>
-    <Modal v-model="prueba" :class1="'inputClass'" :id="'inputId'" :type="'text'" :placeholder="'Marta'" :autocomplete="'off'">
-    </Modal>
   </div>
 </template>
 

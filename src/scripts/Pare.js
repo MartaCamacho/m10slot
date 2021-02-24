@@ -1,11 +1,9 @@
 import ModalBootstrap from '../components/ModalBootstrap.vue';
-import Modal from '../components/Modal.vue';
 
 export default {
     name: 'Pare',
     components: {
-    ModalBootstrap,
-    Modal
+    ModalBootstrap
   },
     data() {
         return {
